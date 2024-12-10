@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Basketball Showdown</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Event Details</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Join Us for an Unforgettable Basketball Event!</h2>
+            <p>Exciting games, amazing prizes, and more. Don't miss out!</p>
+            <button onclick="scrollToDetails()">Learn More</button>
+        </div>
+    </section>
+
+    <section id="details" class="event-details">
+        <h2>Event Details</h2>
+        <p>Get ready for a day filled with high-energy basketball action! Teams from around the country will compete in thrilling matches. Prizes will be awarded to the top teams!</p>
+        <ul>
+            <li><strong>Date:</strong> December 20, 2024</li>
+            <li><strong>Location:</strong> Downtown Arena</li>
+            <li><strong>Time:</strong> 10:00 AM - 6:00 PM</li>
+        </ul>
+    </section>
+
+    <section class="registration">
+        <h2>Register Now!</h2>
+        <form id="registration-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="team">Team Name</label>
+            <input type="text" id="team" name="team" required>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Basketball Showdown | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
